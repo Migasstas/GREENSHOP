@@ -1,8 +1,31 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-.container{
-    max-weight: 1200px;
-    margin: auto;
-}
+*
+{padding: 0;
+    margin: 0;}
+
+.main
+{max-width: 500px; height: 650px; margin: auto; background: #FFFFFF; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)}
+
+.input
+{margin-bottom: 16px; max-height: 40px; width: 300px; padding: 10px; border-radius: 5px; border: 1px solid #EAEAEA}
+
+.input2
+{margin-bottom: 41px; max-height: 40px; width: 300px; padding: 10px; border-radius: 5px; border: 1px solid #EAEAEA}
+
+.title
+{padding: 30px 150px 40px 150px; margin: auto}
+
+.button
+{margin-bottom: 36px; height: 45px; width: 320px; color: #ffffff;
+    background: #46A358; border-radius: 5px; border: 1px solid #EAEAEA}
+
+.simple_text
+{margin-bottom: 16px; text-align: center}
+
+.simple_text2
+{margin-bottom: 27px; text-align: center}
+
+.link_1
+{width: 300px; margin: auto; padding: 10px; border-radius: 5px; border: 1px solid #EAEAEA; margin-bottom: 15px}
+
+.link_2
+{width: 300px; margin: auto; padding: 10px; border-radius: 5px; border: 1px solid #EAEAEA; margin-bottom: 40px}
