@@ -1,8 +1,72 @@
 *
 {padding: 0;
-    margin: 0;}
+    margin: 0;
+box-sizing: border-box}
 
-.main
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    margin-bottom: 12px;
+    padding-top: 30px;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+header nav ul li a{
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+header .login{
+    background: #46a358;
+    border-radius: 6px;
+    padding: 7px 17px;
+    display: flex;
+    align-items: center;
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s
+}
+
+header .login svg{
+    margin-right: 4px;
+}
+
+header .login svg path{
+    transition: 0.4s;
+}
+
+header .login:hover{
+    background-color: white;
+    color: #46a358;
+}
+
+header.login:hover svg path{
+stroke:#46A358;
+}
+
+.banner .container{
+
+}
+
+.registration_frame
 {max-width: 500px; height: 650px; margin: auto; background: #FFFFFF; box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5)}
 
 .input
@@ -24,8 +88,8 @@
 .simple_text2
 {margin-bottom: 27px; text-align: center}
 
-.link_1
+.link_google
 {width: 300px; margin: auto; padding: 10px; border-radius: 5px; border: 1px solid #EAEAEA; margin-bottom: 15px}
 
-.link_2
+.link_facebook
 {width: 300px; margin: auto; padding: 10px; border-radius: 5px; border: 1px solid #EAEAEA; margin-bottom: 40px}
