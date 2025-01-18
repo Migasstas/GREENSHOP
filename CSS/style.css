@@ -118,10 +118,10 @@ stroke:#46A358;
 .registration_frame
 {max-width: 500px; height: 650px; margin: auto; background: #FFFFFF; box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5)
 }
-.input
+.input_log_mail_pass
 {margin-bottom: 16px; max-height: 40px; width: 300px; padding: 10px; border-radius: 5px; border: 1px solid #EAEAEA
 }
-.input2
+.input_confirm
 {margin-bottom: 41px; max-height: 40px; width: 300px; padding: 10px; border-radius: 5px; border: 1px solid #EAEAEA
 }
 .title
@@ -131,10 +131,10 @@ stroke:#46A358;
 {margin-bottom: 36px; height: 45px; width: 320px; color: #ffffff;
     background: #46A358; border-radius: 5px; border: 1px solid #EAEAEA
 }
-.simple_text
+.sub-title_text
 {margin-bottom: 16px; text-align: center
 }
-.simple_text2
+.pre-ending_text
 {margin-bottom: 27px; text-align: center
 }
 .link_google
