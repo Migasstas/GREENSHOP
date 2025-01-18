@@ -33,8 +33,9 @@ box-sizing: border-box
     justify-content: space-between;
     align-items: center;
     font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    padding-left: 40px
 }
-section{
+.banner{
     padding-left: 40px;
 }
 .container h1{
