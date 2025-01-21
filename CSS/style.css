@@ -37,6 +37,130 @@ box-sizing: border-box
     font-weight: normal;
     font-style: normal;
 }
+.main-frame{
+    display: flex;
+}
+main{
+    width: 1440px;
+    margin: auto;
+    padding-left: 135px;
+    padding-right: 105px;
+    padding-top: 40px;
+}
+.categories{
+    width: 310px;
+    height: 770px;
+}
+.categories .chosen_one{
+    font-family: 'cera_promedium', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 270%;
+    color: #46A358;
+    text-decoration: none;
+}
+.categories p{
+    font-family: 'cera_promedium', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    margin-bottom: 7px;
+}
+.categories a{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 270%;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+.left_side{
+    width: 310px;
+}
+.categories ul{
+    padding-left: 12px;
+    list-style: none;
+}
+.short_by ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.short_by ul a{
+    text-decoration: none;
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    color: #3d3d3d;
+}
+.short_right{
+    display: flex;
+    gap: 6px;
+}
+.short_right p{
+     text-decoration: none;
+     font-family: 'cera_proregular', sans-serif;
+     font-weight: 400;
+     font-size: 15px;
+     line-height: 107%;
+     color: #3d3d3d;
+ }
+.short_by{
+    width: 840px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.short_by h3{
+    text-decoration: none;
+    font-family: 'cera_promedium', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 107%;
+    color: #46A358;
+}
+.Products{
+    width: 840px;
+    height: 1190px;
+    margin: auto;
+    font-family: 'cera_proregular', sans-serif;
+    margin-bottom: 90px;
+}
+.Products div a{
+    font-family: 'cera_proregular', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #3d3d3d;
+}
+.Products div{
+    width: 260px;
+    height: 350px;
+    margin: auto;
+}
+.Products div h3{
+    color: #46A358;
+}
+.Products div p{
+    margin-bottom: 6px;
+}
+.Products .first_line{
+    display: flex;
+    margin-bottom: 70px;
+}
+.Products .second_line{
+    display: flex;
+    margin-bottom: 70px;
+}
+.Products .third_line{
+    display: flex;
+    margin-bottom: 70px;
+}
+
 .banner .container{
     padding-left: 40px;
 }
@@ -58,7 +182,7 @@ box-sizing: border-box
     margin-bottom: 5px;
 }
 .banner .container h3{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 100%;
@@ -74,15 +198,18 @@ box-sizing: border-box
     border-radius: 6px;
     padding: 12px 26px;
     align-items: center;
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 800;
     font-size: 16px;
     color: #fff;
     text-decoration: none;
 }
+
 header{
     margin-bottom: 12px;
     padding-top: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 header nav ul{
     display: flex;
@@ -91,7 +218,7 @@ header nav ul{
     gap: 50px;
 }
 header nav ul li a{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
@@ -103,7 +230,7 @@ header .login{
     padding: 7px 17px;
     display: flex;
     align-items: center;
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
@@ -123,31 +250,72 @@ header .login:hover{
 header.login:hover svg path{
 stroke:#46A358;
 }
-.registration_frame
-{max-width: 500px; height: 650px; margin: auto; background: #FFFFFF; box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5)
+
+.registration_frame {
+    font-family: 'cera_proregular', sans-serif;
+    max-width: 500px;
+    height: 650px;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: #FFFFFF;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5)
 }
-.input_log_mail_pass
-{margin-bottom: 16px; max-height: 40px; width: 300px; padding: 10px; border-radius: 5px; border: 1px solid #EAEAEA
+.input_log_mail_pass {
+    font-family: 'cera_proregular', sans-serif;
+    margin-bottom: 16px;
+    max-height: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA
 }
-.input_confirm
-{margin-bottom: 41px; max-height: 40px; width: 300px; padding: 10px; border-radius: 5px; border: 1px solid #EAEAEA
+.input_confirm {
+    font-family: 'cera_proregular', sans-serif;
+    margin-bottom: 41px;
+    max-height: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA
 }
-.title
-{padding: 30px 150px 40px 150px; margin: auto
+.registration_title {
+    padding-top: 30px;
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 80%;
+    text-align: center;
+    margin-bottom: 40px;
 }
-.button
-{margin-bottom: 36px; height: 45px; width: 320px; color: #ffffff;
-    background: #46A358; border-radius: 5px; border: 1px solid #EAEAEA
+.button {
+    margin-bottom: 36px;
+    height: 45px;
+    width: 100%;
+    color: #ffffff;
+    background: #46A358;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA
 }
-.sub-title_text
-{margin-bottom: 16px; text-align: center
+.sub-title_text {
+    margin-bottom: 16px;
+    text-align: center
 }
-.pre-ending_text
-{margin-bottom: 27px; text-align: center
+.pre-ending_text {
+    margin-bottom: 27px;
+    text-align: center
 }
-.link_google
-{width: 300px; margin: auto; padding: 10px; border-radius: 5px; border: 1px solid #EAEAEA; margin-bottom: 15px
+.link_google {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    margin-bottom: 15px
 }
-.link_facebook
-{width: 300px; margin: auto; padding: 10px; border-radius: 5px; border: 1px solid #EAEAEA; margin-bottom: 40px
+.link_facebook {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    margin-bottom: 40px;
 }
