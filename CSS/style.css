@@ -335,7 +335,7 @@ stroke:#46A358;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #EAEAEA;
-    margin-bottom: 15px
+    margin-bottom: 15px;
 }
 .link_facebook {
     width: 100%;
@@ -343,4 +343,12 @@ stroke:#46A358;
     border-radius: 5px;
     border: 1px solid #EAEAEA;
     margin-bottom: 40px;
+}
+.link_google a{
+    text-decoration: none;
+    color: #3d3d3d;
+}
+.link_facebook a{
+    text-decoration: none;
+    color: #3d3d3d;
 }
