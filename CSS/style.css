@@ -39,17 +39,18 @@ box-sizing: border-box
 }
 .main-frame{
     display: flex;
+    justify-content: space-between;
 }
 main{
     width: 1440px;
     margin: auto;
-    padding-left: 135px;
     padding-right: 105px;
     padding-top: 40px;
 }
 .categories{
     width: 310px;
     height: 770px;
+    padding-left: 135px;
 }
 .categories .chosen_one{
     font-family: 'cera_promedium', sans-serif;
@@ -160,7 +161,10 @@ main{
     display: flex;
     margin-bottom: 70px;
 }
-
+.image_frame{
+    height: 300px;
+    width: 260px;
+}
 .banner .container{
     padding-left: 40px;
 }
