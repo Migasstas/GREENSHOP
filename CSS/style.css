@@ -37,203 +37,13 @@ box-sizing: border-box
     font-weight: normal;
     font-style: normal;
 }
-.page_number{
-    margin-bottom: 80px;
-}
-.page_number_chosen{
-
-}
-.page_number a{
-    font-family: 'cera_proregular', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    text-decoration: none;
-    border-radius: 5px;
-    border: 1px solid #EAEAEA;
-    padding: 6px 10px;
-}
-.page_number ul{
-    list-style: none;
-    display: flex;
-    gap: 5px;
-    justify-content: flex-end
-}
-.main-frame{
-    display: flex;
-    justify-content: space-between;
-}
-main{
-    width: 1440px;
-    margin: auto;
-    padding-right: 105px;
-    padding-top: 40px;
-}
-.categories{
-    width: 310px;
-    height: 770px;
-    padding-left: 135px;
-}
-.categories .chosen_one{
-    font-family: 'cera_promedium', sans-serif;
-    font-weight: 900;
-    font-size: 15px;
-    line-height: 270%;
-    color: #46A358;
-    text-decoration: none;
-}
-.categories p{
-    font-family: 'cera_promedium', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 89%;
-    color: #3d3d3d;
-    margin-bottom: 7px;
-}
-.categories a{
-    font-family: 'cera_proregular', sans-serif;
-    font-weight: 200;
-    font-size: 15px;
-    line-height: 270%;
-    color: #3d3d3d;
-    text-decoration: none;
-}
-.left_side{
-    width: 310px;
-}
-.categories ul{
-    padding-left: 12px;
-    list-style: none;
-}
-.short_by ul{
-    display: flex;
-    list-style: none;
-    gap: 40px;
-}
-.short_by ul a{
-    text-decoration: none;
-    font-family: 'cera_proregular', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 107%;
-    color: #3d3d3d;
-}
-.short_right{
-    display: flex;
-    gap: 6px;
-}
-.short_right p{
-     text-decoration: none;
-     font-family: 'cera_proregular', sans-serif;
-     font-weight: 400;
-     font-size: 15px;
-     line-height: 107%;
-     color: #3d3d3d;
- }
-.short_by{
-    width: 840px;
-    height: 25px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-.short_by h3{
-    text-decoration: none;
-    font-family: 'cera_promedium', sans-serif;
-    font-weight: 900;
-    font-size: 15px;
-    line-height: 107%;
-    color: #46A358;
-}
-.Products{
-    width: 840px;
-    height: 1190px;
-    font-family: 'cera_proregular', sans-serif;
-    margin-bottom: 90px;
-}
-.Products div a{
-    font-family: 'cera_proregular', sans-serif;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 100%;
-    color: #3d3d3d;
-}
-.Products div{
-    width: 260px;
-    height: 350px;
-    margin: auto;
-}
-.Products div h3{
-    color: #46A358;
-}
-.Products div p{
-    margin-bottom: 6px;
-}
-.Products .first_line{
-    display: flex;
-    margin-bottom: 70px;
-}
-.Products .second_line{
-    display: flex;
-    margin-bottom: 70px;
-}
-.Products .third_line{
-    display: flex;
-    margin-bottom: 70px;
-}
-.banner .container{
-    padding-left: 40px;
-}
-.container{
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'cera_proregular', sans-serif;
-}
-.banner .container h1{
-    font-family: 'cera_problack', sans-serif;
-    font-weight: bold;
-    font-size: 70px;
-    line-height: 100%;
-    text-transform: uppercase;
-    color: #3d3d3d;
-    margin-bottom: 5px;
-}
-.banner .container h3{
-    font-family: 'cera_proregular', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 100%;
-    text-transform: uppercase;
-    color: #3d3d3d;
-    margin-bottom: 5px;
-}
-.banner .container p{
-    margin-bottom: 44px;
-}
-.banner .container a{
-    background: #46a358;
-    border-radius: 6px;
-    padding: 12px 26px;
-    align-items: center;
-    font-family: 'cera_proregular', sans-serif;
-    font-weight: 800;
-    font-size: 16px;
-    color: #fff;
-    text-decoration: none;
-}
 
 header{
     margin-bottom: 12px;
-    padding-top: 30px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding: 30px 120px 0;
 }
 header nav ul{
     display: flex;
-    align-items: center;
     list-style: none;
     gap: 50px;
 }
@@ -260,16 +70,116 @@ header .login{
 header .login svg{
     margin-right: 4px;
 }
-header .login svg path{
-    transition: 0.4s;
+.categories{
+    padding-left: 20px;
 }
-header .login:hover{
-    background-color: white;
-    color: #46a358;
+.categories .chosen_one{
+    font-family: 'cera_promedium', sans-serif;
+    color: #46A358;
 }
-header.login:hover svg path{
-stroke:#46A358;
+.categories a{
+    color: #3d3d3d;
+    text-decoration: none;
+    padding-left: 12px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 267%;
 }
+.categories ul{
+    padding-left: 12px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.sort_by{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.sort_by_right{
+    display: flex;
+}
+.sort_by ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.sort_by a{
+    text-decoration: none;
+    color: #3d3d3d;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+}
+.products h3{
+    color: #46A358;
+}
+.products div{
+    margin-bottom: 70px;
+    width: 260px;
+    height: 350px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'cera_proregular', sans-serif;
+    align-items: center;
+}
+.container-float{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'cera_proregular', sans-serif;
+    align-items: stretch;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+.banner h1{
+    font-family: 'cera_problack', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    margin-bottom: 10px;
+}
+.banner p{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.banner h3{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3d3d3d;
+}
+.banner a{
+    background: #46a358;
+    border-radius: 6px;
+    padding: 12px 26px;
+    align-items: center;
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
 
 .registration_frame {
     font-family: 'cera_proregular', sans-serif;
