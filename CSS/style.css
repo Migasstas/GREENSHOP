@@ -39,7 +39,7 @@ box-sizing: border-box
 }
 header{
     margin-bottom: 12px;
-    padding: 25px 20px 0px;
+    padding: 25px 20px 0;
 }
 header .container{
     border-bottom: 0.30px solid rgba(70, 163, 88, 0.5);
