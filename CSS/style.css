@@ -88,6 +88,8 @@ header .login svg{
 }
 .categories{
     line-height: 260%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .categories .chosen_one{
     font-family: 'cera_promedium', sans-serif;
