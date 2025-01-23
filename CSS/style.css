@@ -42,7 +42,7 @@ header{
     padding: 25px 20px 0;
 }
 header .container{
-    border-bottom: 0.30px solid rgba(70, 163, 88, 0.5);
+    border-bottom: 1px solid rgba(70, 163, 88, 0.5);
 }
 header nav ul{
     display: flex;
@@ -105,6 +105,7 @@ header .login svg{
 }
 .categories ul{
     list-style: none;
+    padding-left: 12px;
 }
 .sort_by{
     margin-bottom: 30px;
