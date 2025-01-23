@@ -87,17 +87,15 @@ header .login svg{
     margin-bottom: 5px;
 }
 .categories{
-    color: #3d3d3d;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 267%;
-    align-content: space-between;
+    line-height: 260%;
 }
 .categories .chosen_one{
     font-family: 'cera_promedium', sans-serif;
     color: #46A358;
     font-weight: 900;
+}
+.categories div{
+    margin-bottom: 36px;
 }
 .categories a{
     color: #3d3d3d;
@@ -155,12 +153,12 @@ header .login svg{
     display: flex;
     justify-content: space-between;
     font-family: 'cera_proregular', sans-serif;
-    align-items: center;
 }
 .container_float{
     max-width: 1200px;
     margin: auto;
     display: flex;
+    justify-content: center;
     font-family: 'cera_proregular', sans-serif;
 }
 .banner{
