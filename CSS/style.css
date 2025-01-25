@@ -37,12 +37,20 @@ box-sizing: border-box
     font-weight: normal;
     font-style: normal;
 }
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
 header{
     margin-bottom: 12px;
-    padding: 25px 20px 0;
+    padding: 25px 0;
 }
 header .container{
     border-bottom: 1px solid rgba(70, 163, 88, 0.5);
+    display: flex;
+    font-family: 'cera_proregular', sans-serif;
+    align-items: center;
+    justify-content:space-between;
 }
 header nav ul{
     display: flex;
@@ -50,85 +58,107 @@ header nav ul{
     gap: 50px;
 }
 header nav ul li a{
-    font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
     text-decoration: none;
 }
 header .login{
+    width: 100px;
     background: #46a358;
     border-radius: 6px;
     padding: 7px 17px;
     display: flex;
-    align-items: center;
-    font-family: 'cera_proregular', sans-serif;
-    font-weight: 500;
     font-size: 16px;
     color: #fff;
     text-decoration: none;
-    transition: 0.4s
 }
 header .login svg{
     margin-right: 4px;
 }
-.chosen_header{
-    font-family: 'cera_promedium', sans-serif;
+.banner{
+    display: flex;
+    align-items: center;
+    font-family: 'cera_proregular', sans-serif;
+    color: #3d3d3d;
+    margin-bottom: 50px;
+}
+.banner span{
+    color: #46A358;
+}
+.banner h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.banner h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'cera_problack', sans-serif;
+    margin-bottom: 10px;
+}
+.banner p{
+    margin-bottom: 50px;
+}
+.banner a{
+    background: #46a358;
+    border-radius: 6px;
+    padding: 10px 20px;
     font-weight: 600;
     font-size: 16px;
-    color: #3d3d3d;
+    color: #fff;
     text-decoration: none;
-    border-bottom: 4px solid #46a358;
 }
-.categories div{
-    padding-left: 32px;
+.float{
+    font-family: 'cera_proregular', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
 }
-.categories h3{
-    margin-bottom: 5px;
+.panel-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.panel-left{
+    background: #fbfbfb;
 }
 .categories{
     line-height: 260%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.categories .chosen_one{
-    font-family: 'cera_promedium', sans-serif;
-    color: #46A358;
-    font-weight: 900;
-}
-.categories div{
-    margin-bottom: 36px;
+    padding-left: 18px;
 }
 .categories a{
     color: #3d3d3d;
-    text-decoration: none;
+    text-decoration: none
 }
 .categories ul{
     list-style: none;
     padding-left: 12px;
 }
-.sort_by{
-    margin-bottom: 30px;
+.categories h3{
+    font-family: 'cera_promedium', sans-serif;
+    color: #46A358;
+    font-weight: 900;
+}
+.sort{
     display: flex;
     justify-content: space-between;
 }
-.sort_by_right{
-    display: flex;
-    align-items: center;
-}
-.sort_by ul{
+.sort ul{
     list-style: none;
     display: flex;
     gap: 30px;
 }
-.sort_by a{
+.sort a{
     text-decoration: none;
     color: #3d3d3d;
 }
-.sort_by p{
-    padding: 5px;
+.sort-right{
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
-.sort_by .chosen_one{
+.sort .chosen_one{
     font-family: 'cera_promedium', sans-serif;
     color: #46A358;
     font-weight: 900;
@@ -137,146 +167,71 @@ header .login svg{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 60px;
 }
-.products h3{
+.card{
+    align-content: flex-end;
+}
+.card h3{
     color: #46A358;
 }
-.products div{
-    align-content: flex-end;
-    margin-bottom: 70px;
+.flex{
+    font-family: 'cera_proregular', sans-serif;
+    margin-bottom: 60px;
 }
-.products img{
-    margin-bottom: 12px;
-}
-.container{
-    max-width: 1200px;
-    margin: auto;
+.flex-line-1{
     display: flex;
-    justify-content: space-between;
-    font-family: 'cera_proregular', sans-serif;
+    flex-wrap: wrap;
+    margin-bottom: 140px;
 }
-.container_float{
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    font-family: 'cera_proregular', sans-serif;
-}
-.banner{
-    display: flex;
-    align-items: center;
-    padding-left: 40px;
-    font-family: 'cera_proregular', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 200%;
-    color: #727272;
-}
-.banner h1{
-    font-family: 'cera_problack', sans-serif;
-    font-size: 70px;
-    line-height: 100%;
-    text-transform: uppercase;
-    color: #3d3d3d;
-    margin-bottom: 10px;
-}
-.banner p{
-    margin-bottom: 50px;
-}
-.banner h3{
-    font-family: 'cera_proregular', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 100%;
-    text-transform: uppercase;
-    color: #3d3d3d;
-    margin-bottom: 7px;
-}
-.banner a{
+.flex-line-1 a{
     background: #46a358;
     border-radius: 6px;
     padding: 10px 20px;
-    align-items: center;
-    font-family: 'cera_proregular', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 16px;
     color: #fff;
     text-decoration: none;
 }
-.registration_frame {
-    font-family: 'cera_proregular', sans-serif;
-    max-width: 500px;
-    height: 650px;
-    margin: auto;
-    padding-left: 100px;
-    padding-right: 100px;
-    background: #FFFFFF;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5)
+.flex-card-1line{
+    display: flex;
+    width: 580px;
+    align-items: center;
+    text-align: left;
 }
-.input_log_mail_pass {
-    font-family: 'cera_proregular', sans-serif;
-    margin-bottom: 16px;
-    max-height: 40px;
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #EAEAEA
+.flex-card-1line h3{
+    margin-bottom: 5px;
+    padding-top: 40px;
 }
-.input_confirm {
-    font-family: 'cera_proregular', sans-serif;
-    margin-bottom: 41px;
-    max-height: 40px;
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #EAEAEA
+.flex-card-1line p{
+    margin-bottom: 25px;
 }
-.registration_title {
-    padding-top: 30px;
-    font-family: 'cera_proregular', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 80%;
+.flex-central-text{
+    margin-bottom: 35px;
     text-align: center;
-    margin-bottom: 40px;
 }
-.button {
-    margin-bottom: 36px;
-    height: 45px;
-    width: 100%;
-    color: #ffffff;
-    background: #46A358;
-    border-radius: 5px;
-    border: 1px solid #EAEAEA
+.flex-central-text h2{
+    font-family: 'cera_problack', sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
 }
-.sub-title_text {
-    margin-bottom: 16px;
-    text-align: center
+.flex-line-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.pre-ending_text {
-    margin-bottom: 27px;
-    text-align: center
-}
-.link_google {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #EAEAEA;
-    margin-bottom: 15px;
-}
-.link_facebook {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #EAEAEA;
-    margin-bottom: 40px;
-}
-.link_google a{
+.flex-line-2 a{
     text-decoration: none;
-    color: #3d3d3d;
 }
-.link_facebook a{
-    text-decoration: none;
-    color: #3d3d3d;
+.flex-card-2line{
+    max-width: 260px;
+}
+.flex-card-2line h4{
+    color: #46A358;
+    margin-bottom: 4px;
+}
+.flex-card-2line h3{
+    margin-bottom: 4px;
+}
+.flex-card-2line p{
+    margin-bottom: 10px;
 }
