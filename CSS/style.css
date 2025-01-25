@@ -50,7 +50,7 @@ header .container{
     display: flex;
     font-family: 'cera_proregular', sans-serif;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 header nav ul{
     display: flex;
@@ -114,6 +114,7 @@ header .login svg{
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
+    gap: 40px;
 }
 .panel-left{
     display: flex;
@@ -178,12 +179,12 @@ header .login svg{
     font-family: 'cera_proregular', sans-serif;
     margin-bottom: 60px;
 }
-.flex-line-1{
+.flex-line-top{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 140px;
 }
-.flex-line-1 a{
+.flex-line-top a{
     background: #46a358;
     border-radius: 6px;
     padding: 10px 20px;
@@ -192,17 +193,17 @@ header .login svg{
     color: #fff;
     text-decoration: none;
 }
-.flex-card-1line{
+.flex-card-top_line{
     display: flex;
     width: 580px;
     align-items: center;
     text-align: left;
 }
-.flex-card-1line h3{
+.flex-card-top_line h3{
     margin-bottom: 5px;
     padding-top: 40px;
 }
-.flex-card-1line p{
+.flex-card-top_line p{
     margin-bottom: 25px;
 }
 .flex-central-text{
@@ -214,24 +215,27 @@ header .login svg{
     font-size: 30px;
     margin-bottom: 5px;
 }
-.flex-line-2{
+.flex-line-bottom{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.flex-line-2 a{
+.flex-line-bottom a{
     text-decoration: none;
+    color: #3d3d3d;
+    margin-bottom: 12px;
 }
-.flex-card-2line{
-    max-width: 260px;
+.flex-card-bottom_line{
+    width: 270px;
 }
-.flex-card-2line h4{
+.flex-card-bottom_line h4{
     color: #46A358;
     margin-bottom: 4px;
+    padding-top: 5px;
 }
-.flex-card-2line h3{
+.flex-card-bottom_line h3{
     margin-bottom: 4px;
 }
-.flex-card-2line p{
+.flex-card-bottom_line p{
     margin-bottom: 10px;
 }
