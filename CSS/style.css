@@ -193,17 +193,17 @@ header .login svg{
     color: #fff;
     text-decoration: none;
 }
-.flex-card-top_line{
+.flex-card-top{
     display: flex;
     width: 580px;
     align-items: center;
     text-align: left;
 }
-.flex-card-top_line h3{
+.flex-card-top h3{
     margin-bottom: 5px;
     padding-top: 40px;
 }
-.flex-card-top_line p{
+.flex-card-top p{
     margin-bottom: 25px;
 }
 .flex-central-text{
@@ -225,18 +225,18 @@ header .login svg{
     color: #3d3d3d;
     margin-bottom: 12px;
 }
-.flex-card-bottom_line{
+.flex-card-bottom{
     width: 270px;
 }
-.flex-card-bottom_line h4{
+.flex-card-bottom h4{
     color: #46A358;
     margin-bottom: 4px;
     padding-top: 5px;
 }
-.flex-card-bottom_line h3{
+.flex-card-bottom h3{
     margin-bottom: 4px;
 }
-.flex-card-bottom_line p{
+.flex-card-bottom p{
     margin-bottom: 10px;
 }
 .sub-title_text {
@@ -255,7 +255,7 @@ header .login svg{
 }
 .input_log_mail_pass {
     margin-bottom: 16px;
-    max-height: 40px;
+    height: 40px;
     width: 100%;
     padding: 10px;
     border-radius: 5px;
