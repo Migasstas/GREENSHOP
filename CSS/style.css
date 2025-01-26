@@ -323,3 +323,6 @@ header .login svg{
 .span_register{
     color: #46A358;
 }
+.card_text_margin{
+    margin: 0 10px;
+}
