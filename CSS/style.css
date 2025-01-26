@@ -195,7 +195,6 @@ header .login svg{
 }
 .flex-card-top{
     display: flex;
-    width: 580px;
     align-items: center;
     text-align: left;
 }
