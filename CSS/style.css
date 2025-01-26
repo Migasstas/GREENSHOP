@@ -239,3 +239,87 @@ header .login svg{
 .flex-card-bottom_line p{
     margin-bottom: 10px;
 }
+.sub-title_text {
+    margin-bottom: 16px;
+    text-align: center
+}
+.registration{
+    font-family: 'cera_proregular', sans-serif;
+    max-width: 500px;
+    height: 650px;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: #FFFFFF;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3)
+}
+.input_log_mail_pass {
+    margin-bottom: 16px;
+    max-height: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA
+}
+.input_confirm {
+    margin-bottom: 41px;
+    max-height: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA
+}
+.registration_title {
+    font-family: 'cera_promedium', sans-serif;
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 80%;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #3D3D3D;
+}
+.button {
+    margin-bottom: 36px;
+    height: 45px;
+    width: 100%;
+    color: #ffffff;
+    background: #46A358;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA
+}
+.sub-title_text {
+    margin-bottom: 16px;
+    text-align: left;
+}
+.pre-ending_text {
+    margin-bottom: 27px;
+    text-align: center
+}
+.link_google {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.link_facebook {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.link_facebook a {
+    text-decoration: none;
+    color: #3D3D3D;
+}
+.link_google a {
+    text-decoration: none;
+    color: #3D3D3D;
+}
+.span_register{
+    color: #46A358;
+}
