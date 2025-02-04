@@ -19,13 +19,27 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#" class="chosen_header">Home</a>
+                    <a href="#">Home</a>
                 </li>
                 <li>
                     <a href="#">Shop</a>
                 </li>
-                <li>
+                <li class="drop">
                     <a href="#">Plant Care</a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="">Drainage</a>
+                        </li>
+                        <li>
+                            <a href="">Fungicides</a>
+                        </li>
+                        <li>
+                            <a href="">Fertilizer</a>
+                        </li>
+                        <li>
+                            <a href="">Priming</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="#">Blogs</a>
@@ -43,24 +57,27 @@
 </header>
 
 <main>
-    <section class="banner container">
-        <div>
-            <article>
-                <h3>Welcome to GreenShop</h3>
-                <h1>LET'S MAKE A
-                    <br>BETTER
-                    <span>
-                        PLANET
-                    </span>
-                </h1>
-                <p>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create a unique Urban Jungle. Order your favorite plants!</p>
-                <a href="#">SHOP NOW</a>
-            </article>
+    <section class="banner">
+        <div class="container">
+            <div>
+                <article>
+                    <h3>Welcome to GreenShop</h3>
+                    <h1>LET'S MAKE A
+                        <br>BETTER
+                        <span>
+                            PLANET
+                        </span>
+                    </h1>
+                    <p>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create a unique Urban Jungle. Order your favorite plants!</p>
+                    <a href="#">SHOP NOW</a>
+                </article>
+            </div>
+            <img src="images/Component 1.png" alt="banner">
         </div>
-        <img src="images/Component 1.png" alt="banner">
     </section>
 
-    <section class="float container">
+    <section class="float">
+        <div class="container">
             <div class="panel-left">
                 <div class="categories">
                     <h3>Categories</h3>
@@ -120,183 +137,359 @@
                 <div class="products">
                         <div class="card">
                                 <img src="images/Barberton daisy.png" alt="Barberton Daisy">
+                            <div class="cardicons">
+                                <ul>
+                                    <li class="icon-shopping">
+                                        <a href="#">
+                                            <img src="images/shopping 2.png" height="20" width="20" alt="shopping">
+                                        </a>
+                                    </li>
+                                    <li class="icon-like">
+                                        <a href="#">
+                                            <img src="images/heart 2.png" height="20" width="20" alt="like"/>
+                                        </a>
+                                    </li>
+                                    <li class="icon-search">
+                                        <a href="#">
+                                            <img src="images/loop 2.png" height="20" width="20" alt="search">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                                 <p>Barberton Daisy</p>
                                 <h3>$119.00</h3>
                         </div>
                         <div class="card">
                                 <img src="images/angel wing begonia.png" alt="angel wing begonia">
+                            <div class="cardicons">
+                                <ul>
+                                    <li class="icon-shopping">
+                                        <a href="#">
+                                            <img src="images/shopping 2.png" height="20" width="20" alt="shopping">
+                                        </a>
+                                    </li>
+                                    <li class="icon-like">
+                                        <a href="#">
+                                            <img src="images/heart 2.png" height="20" width="20" alt="like"/>
+                                        </a>
+                                    </li>
+                                    <li class="icon-search">
+                                        <a href="#">
+                                            <img src="images/loop 2.png" height="20" width="20" alt="search">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                                 <p>Angel wing begonia</p>
                                 <h3>$169.00</h3>
                         </div>
                         <div class="card">
+                            <div class="discount">13% OFF</div>
                                 <img src="images/african violet.png" alt="african violet">
+                            <div class="cardicons">
+                                <ul>
+                                    <li class="icon-shopping">
+                                        <a href="#">
+                                            <img src="images/shopping 2.png" height="20" width="20" alt="shopping">
+                                        </a>
+                                    </li>
+                                    <li class="icon-like">
+                                        <a href="#">
+                                            <img src="images/heart 2.png" height="20" width="20" alt="like"/>
+                                        </a>
+                                    </li>
+                                    <li class="icon-search">
+                                        <a href="#">
+                                            <img src="images/loop 2.png" height="20" width="20" alt="search">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                                 <p>African violet</p>
                                 <h3>$199.00</h3>
+                                <span class="grey">$299</span>
                         </div>
                         <div class="card">
                                 <img src="images/beach spider lily.png" alt="beach spider lily">
+                            <div class="cardicons">
+                                <ul>
+                                    <li class="icon-shopping">
+                                        <a href="#">
+                                            <img src="images/shopping 2.png" height="20" width="20" alt="shopping">
+                                        </a>
+                                    </li>
+                                    <li class="icon-like">
+                                        <a href="#">
+                                            <img src="images/heart 2.png" height="20" width="20" alt="like"/>
+                                        </a>
+                                    </li>
+                                    <li class="icon-search">
+                                        <a href="#">
+                                            <img src="images/loop 2.png" height="20" width="20" alt="search">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                                 <p>Beach spider lily</p>
                                 <h3>$129.00</h3>
                         </div>
                         <div class="card">
                                 <img src="images/blushing bromeliad.png" alt="blushing bromeliad">
+                            <div class="cardicons">
+                                <ul>
+                                    <li class="icon-shopping">
+                                        <a href="#">
+                                            <img src="images/shopping 2.png" height="20" width="20" alt="shopping">
+                                        </a>
+                                    </li>
+                                    <li class="icon-like">
+                                        <a href="#">
+                                            <img src="images/heart 2.png" height="20" width="20" alt="like"/>
+                                        </a>
+                                    </li>
+                                    <li class="icon-search">
+                                        <a href="#">
+                                            <img src="images/loop 2.png" height="20" width="20" alt="search">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                                 <p>Blushing Bromeliad</p>
                                 <h3>$139.00</h3>
                         </div>
                         <div class="card">
                                 <img src="images/aluminium plant.png" alt="aluminium plant">
+                            <div class="cardicons">
+                                <ul>
+                                    <li class="icon-shopping">
+                                        <a href="#">
+                                            <img src="images/shopping 2.png" height="20" width="20" alt="shopping">
+                                        </a>
+                                    </li>
+                                    <li class="icon-like">
+                                        <a href="#">
+                                            <img src="images/heart 2.png" height="20" width="20" alt="like"/>
+                                        </a>
+                                    </li>
+                                    <li class="icon-search">
+                                        <a href="#">
+                                            <img src="images/loop 2.png" height="20" width="20" alt="search">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                                 <p>Aluminium Plant</p>
                                 <h3>$179.00</h3>
                         </div>
                         <div class="card">
                             <img src="images/birds nest fern.png" alt="birds nest fern">
+                            <div class="cardicons">
+                                <ul>
+                                    <li class="icon-shopping">
+                                        <a href="#">
+                                            <img src="images/shopping 2.png" height="20" width="20" alt="shopping">
+                                        </a>
+                                    </li>
+                                    <li class="icon-like">
+                                        <a href="#">
+                                            <img src="images/heart 2.png" height="20" width="20" alt="like"/>
+                                        </a>
+                                    </li>
+                                    <li class="icon-search">
+                                        <a href="#">
+                                            <img src="images/loop 2.png" height="20" width="20" alt="search">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                             <p>Birds Nest Fern</p>
                             <h3>$99.00</h3>
                         </div>
                         <div class="card">
                                 <img src="images/broadleaf lady palm.png" alt="broadleaf lady palm">
+                            <div class="cardicons">
+                                <ul>
+                                    <li class="icon-shopping">
+                                        <a href="#">
+                                            <img src="images/shopping 2.png" height="20" width="20" alt="shopping">
+                                        </a>
+                                    </li>
+                                    <li class="icon-like">
+                                        <a href="#">
+                                            <img src="images/heart 2.png" height="20" width="20" alt="like"/>
+                                        </a>
+                                    </li>
+                                    <li class="icon-search">
+                                        <a href="#">
+                                            <img src="images/loop 2.png" height="20" width="20" alt="search">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                                 <p>Broadleaf Lady Palm</p>
                                 <h3>$59.00</h3>
                         </div>
                         <div class="card">
                                 <img src="images/chinese evergreen.png" alt="chinese evergreen">
+                            <div class="cardicons">
+                                <ul>
+                                    <li class="icon-shopping">
+                                        <a href="#">
+                                            <img src="images/shopping 2.png" height="20" width="20" alt="shopping">
+                                        </a>
+                                    </li>
+                                    <li class="icon-like">
+                                        <a href="#">
+                                            <img src="images/heart 2.png" height="20" width="20" alt="like"/>
+                                        </a>
+                                    </li>
+                                    <li class="icon-search">
+                                        <a href="#">
+                                            <img src="images/loop 2.png" height="20" width="20" alt="search">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                                 <p>Chinese Evergreen</p>
                                 <h3>$39.00</h3>
                         </div>
                 </div>
             </div>
+        </div>
     </section>
 
-    <section class="flex container">
-        <div class="flex-line-top">
-            <div class="flex-card-top">
-                <img src="images/image 14.png" height="292" width="287" alt="image14"/>
-                <div>
-                    <h3>
-                    Summer cactus & succulents
-                    </h3>
-                    <p>
-                    We are an online plant shop offering a wide range of cheap and trendy plants
-                    </p>
-                    <a  href="#">
-                        Find More
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M14.8126 8.79428H3.56258" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M10.2748 4.2759C10.2748 4.2759 14.8123 6.72165 14.8123 8.79315C14.8123 10.8662 10.2748 13.3127 10.2748 13.3127" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-            <div class="flex-card-top">
-                <img src="images/image 15.png" height="287" width="289" alt="image15">
-                <div>
-                    <h3>
+    <section class="flex">
+        <div class="container">
+            <div class="flex-line-top">
+                <div class="flex-card-top">
+                    <img src="images/image 14.png" height="292" width="287" alt="image14"/>
+                    <div class="card-flex-correction">
+                        <h3>
                         Summer cactus & succulents
-                    </h3>
-                    <p>
+                        </h3>
+                        <p>
                         We are an online plant shop offering a wide range of cheap and trendy plants
-                    </p>
-                    <a  href="#">
-                        Find More
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        </p>
+                        <a  href="#">
+                            Find More
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.8126 8.79428H3.56258" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M10.2748 4.2759C10.2748 4.2759 14.8123 6.72165 14.8123 8.79315C14.8123 10.8662 10.2748 13.3127 10.2748 13.3127" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </a>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-card-top">
+                    <img src="images/image 15.png" height="287" width="289" alt="image15">
+                    <div>
+                        <h3>
+                            Summer cactus & succulents
+                        </h3>
+                        <p>
+                            We are an online plant shop offering a wide range of cheap and trendy plants
+                        </p>
+                        <a  href="#">
+                            Find More
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.8126 8.79428H3.56258" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10.2748 4.2759C10.2748 4.2759 14.8123 6.72165 14.8123 8.79315C14.8123 10.8662 10.2748 13.3127 10.2748 13.3127" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="flex-central-text">
-        <h2>
-            Our Blog Posts
-        </h2>
-        <p>
-            We are an online plant shop offering a wide range of cheap and trendy plants.
-        </p>
-        </div>
-        <div class="flex-line-bottom">
-            <div class="flex-card-bottom">
-                <img src="images/01.png" height="196" width="268" alt="image01"/>
-                <div class="card_text_margin">
-                    <h4>
-                        September 12 I Read in 6 minutes
-                    </h4>
-                    <h3>
-                        Cactus & Succulent Care Tips
-                    </h3>
-                    <p>
-                        Cacti are succulents are easy care plants for any home or patio.
-                    </p>
-                    <a  href="#">
-                        Read More
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M14.8126 8.79428H3.56258" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M10.2748 4.2759C10.2748 4.2759 14.8123 6.72165 14.8123 8.79315C14.8123 10.8662 10.2748 13.3127 10.2748 13.3127" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </a>
-                </div>
+            <div class="flex-central-text">
+            <h2>
+                Our Blog Posts
+            </h2>
+            <p>
+                We are an online plant shop offering a wide range of cheap and trendy plants.
+            </p>
             </div>
-            <div class="flex-card-bottom">
-                <img src="images/02.png" height="196" width="268" alt="image02"/>
-                <div class="card_text_margin">
-                    <h4>
-                        September 13 I Read in 2 minutes
-                    </h4>
-                    <h3>
-                        Top 10 Succulents for Your Home
-                    </h3>
-                    <p>
-                        Best in hanging baskets. Prefers medium to high light.
-                    </p>
-                    <a  href="#">
-                        Read More
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M14.8126 8.79428H3.56258" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M10.2748 4.2759C10.2748 4.2759 14.8123 6.72165 14.8123 8.79315C14.8123 10.8662 10.2748 13.3127 10.2748 13.3127" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </a>
+            <div class="flex-line-bottom">
+                <div class="flex-card-bottom">
+                    <img src="images/01.png" height="196" width="268" alt="image01"/>
+                    <div class="card_text_margin">
+                        <h4>
+                            September 12 I Read in 6 minutes
+                        </h4>
+                        <h3>
+                            Cactus & Succulent Care Tips
+                        </h3>
+                        <p>
+                            Cacti are succulents are easy care plants for any home or patio.
+                        </p>
+                        <a  href="#">
+                            Read More
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.8126 8.79428H3.56258" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10.2748 4.2759C10.2748 4.2759 14.8123 6.72165 14.8123 8.79315C14.8123 10.8662 10.2748 13.3127 10.2748 13.3127" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="flex-card-bottom">
-                <img src="images/03.png" height="195" width="268" alt="image03"/>
-                <div class="card_text_margin">
-                    <h4>
-                        September 15 I Read in 3 minutes
-                    </h4>
-                    <h3>
-                        Cacti & Succulent Care Tips
-                    </h3>
-                    <p>
-                        Cacti and succulents thrive in containers and because most are..
-                    </p>
-                    <a  href="#">
-                        Read More
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M14.8126 8.79428H3.56258" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M10.2748 4.2759C10.2748 4.2759 14.8123 6.72165 14.8123 8.79315C14.8123 10.8662 10.2748 13.3127 10.2748 13.3127" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </a>
+                <div class="flex-card-bottom">
+                    <img src="images/02.png" height="196" width="268" alt="image02"/>
+                    <div class="card_text_margin">
+                        <h4>
+                            September 13 I Read in 2 minutes
+                        </h4>
+                        <h3>
+                            Top 10 Succulents for Your Home
+                        </h3>
+                        <p>
+                            Best in hanging baskets. Prefers medium to high light.
+                        </p>
+                        <a  href="#">
+                            Read More
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.8126 8.79428H3.56258" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10.2748 4.2759C10.2748 4.2759 14.8123 6.72165 14.8123 8.79315C14.8123 10.8662 10.2748 13.3127 10.2748 13.3127" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="flex-card-bottom">
-                <img src="images/04.png" height="195" width="268" alt="image04"/>
-                <div class="card_text_margin">
-                    <h4>
-                        September 15 I Read in 2 minutes
-                    </h4>
-                    <h3>
-                        Best Houseplants Room by Room
-                    </h3>
-                    <p>
-                        The benefits of houseplants are endless. In addition to..
-                    </p>
-                    <a  href="#">
-                        Read More
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M14.8126 8.79428H3.56258" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M10.2748 4.2759C10.2748 4.2759 14.8123 6.72165 14.8123 8.79315C14.8123 10.8662 10.2748 13.3127 10.2748 13.3127" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </a>
+                <div class="flex-card-bottom">
+                    <img src="images/03.png" height="195" width="268" alt="image03"/>
+                    <div class="card_text_margin">
+                        <h4>
+                            September 15 I Read in 3 minutes
+                        </h4>
+                        <h3>
+                            Cacti & Succulent Care Tips
+                        </h3>
+                        <p>
+                            Cacti and succulents thrive in containers and because most are..
+                        </p>
+                        <a  href="#">
+                            Read More
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.8126 8.79428H3.56258" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10.2748 4.2759C10.2748 4.2759 14.8123 6.72165 14.8123 8.79315C14.8123 10.8662 10.2748 13.3127 10.2748 13.3127" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-card-bottom">
+                    <img src="images/04.png" height="195" width="268" alt="image04"/>
+                    <div class="card_text_margin">
+                        <h4>
+                            September 15 I Read in 2 minutes
+                        </h4>
+                        <h3>
+                            Best Houseplants Room by Room
+                        </h3>
+                        <p>
+                            The benefits of houseplants are endless. In addition to..
+                        </p>
+                        <a  href="#">
+                            Read More
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.8126 8.79428H3.56258" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10.2748 4.2759C10.2748 4.2759 14.8123 6.72165 14.8123 8.79315C14.8123 10.8662 10.2748 13.3127 10.2748 13.3127" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

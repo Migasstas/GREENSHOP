@@ -41,6 +41,63 @@ box-sizing: border-box
     max-width: 1200px;
     margin: auto;
 }
+
+/* new */
+
+.discount{
+    position: absolute;
+    background-color: #46A358;
+    padding: 10px;
+    color: #fff;
+    left: 0;
+    top: 5px;
+}
+.cardicons{
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    display: none;
+}
+.card:hover .cardicons{
+    display: block;
+}
+.cardicons ul{
+    list-style: none;
+}
+.cardicons ul{
+    display: flex;
+    gap: 30px;
+}
+.cardicons ul li{
+    display: block;
+}
+.icon-shopping a:hover img{
+    opacity: 0;
+}
+.icon-shopping a:hover{
+    background-image: url("../images/shopping 1.png");
+}
+.icon-like{
+    position: relative;
+}
+.icon-like a:hover img{
+    opacity: 0;
+}
+.icon-like a:hover{
+    background-image: url("../images/heart 1.png");
+}
+.icon-search{
+    position: relative;
+}
+.icon-search a:hover img{
+    opacity: 0;
+}
+.icon-search a:hover{
+    background-image: url("../images/loop 1.png");
+}
+
+/* header */
+
 header{
     margin-bottom: 12px;
     padding: 25px 0;
@@ -62,6 +119,26 @@ header nav ul li a{
     font-size: 16px;
     color: #3d3d3d;
     text-decoration: none;
+    position: relative;
+}
+header nav ul li a:before{
+    content: "";
+    display: block;
+    background-color: #46A358;
+    height: 2px;
+    width: 0;
+    position: absolute;
+    bottom: -10px;
+    transition: 0.4s;
+}
+header nav ul li a:hover:before{
+    width: 100%;
+}
+header nav ul li a:hover:before{
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+    text-decoration: none;
 }
 header .login{
     width: 100px;
@@ -76,7 +153,52 @@ header .login{
 header .login svg{
     margin-right: 4px;
 }
-.banner{
+header nav ul li{
+    position: relative;
+}
+header nav ul li .dropdown{
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    left: -60px;
+    padding-top: 40px;
+}
+header nav ul li .dropdown a:before{
+    display: none;
+}
+header nav ul li .dropdown a{
+    padding: 8px 14px;
+    min-width: 188px;
+    display: inline-block;
+    background-color: #eeeeee;
+    line-height: 20px;
+    transition: 0.3s;
+}
+header nav li .dropdown li:last-of-type a:after{
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 10px;
+    position: absolute;
+    right: 17px;
+    top: 14px;
+    background-image: url("../images/frame 9.svg")
+}
+header nav ul li .dropdown a:hover:after{
+    background-image: url("../images/stroke 3-2.svg");
+    transform: rotate(180deg);
+}
+header nav ul li .dropdown a:hover{
+    background-color: #46A358;
+    color: #eeeeee;
+}
+header nav ul li.drop:hover .dropdown{
+    display: block;
+}
+/* banner */
+
+.banner .container{
     display: flex;
     align-items: center;
     font-family: 'cera_proregular', sans-serif;
@@ -109,7 +231,10 @@ header .login svg{
     color: #fff;
     text-decoration: none;
 }
-.float{
+
+/* float */
+
+.float .container{
     font-family: 'cera_proregular', sans-serif;
     display: flex;
     justify-content: space-between;
@@ -144,6 +269,7 @@ header .login svg{
 .sort{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 .sort ul{
     list-style: none;
@@ -171,10 +297,33 @@ header .login svg{
 }
 .card{
     align-content: flex-end;
+    position: relative;
+    max-width: 258px;
+    max-height: 400px;
+    border-top: 3px solid rgba(70, 163, 88, 0);
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.card:hover{
+    border-top: 3px solid rgba(70, 163, 88, 1);
+}
+.card p{
+    padding-top: 30px;
+    margin-bottom: 10px;
 }
 .card h3{
     color: #46A358;
 }
+.grey{
+    color: #A5A5A5;
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    font-size: 20px;
+}
+
+/* flex */
+
 .flex{
     font-family: 'cera_proregular', sans-serif;
     margin-bottom: 60px;
@@ -195,9 +344,14 @@ header .login svg{
 }
 .flex-card-top{
     display: flex;
-    width: 580px;
+    max-width: 580px;
     align-items: center;
-    text-align: left;
+    text-align: right;
+}
+.card-flex-correction{
+    max-width: 280px;
+    min-width: 200px;
+    margin-right: 30px;
 }
 .flex-card-top h3{
     margin-bottom: 5px;
@@ -243,6 +397,9 @@ header .login svg{
     margin-bottom: 16px;
     text-align: center
 }
+
+/* registration */
+
 .registration{
     font-family: 'cera_proregular', sans-serif;
     max-width: 500px;
