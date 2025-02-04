@@ -215,7 +215,7 @@ header nav ul li.drop:hover .dropdown{
     padding-left: 10px;
 }
 header nav ul li.drop li:last-of-type:hover .dropdown2{
-    display: block;
+    display: inline-block;
 }
 
 /* banner */
