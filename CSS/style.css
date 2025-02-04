@@ -189,13 +189,35 @@ header nav ul li .dropdown a:hover:after{
     background-image: url("../images/stroke 3-2.svg");
     transform: rotate(180deg);
 }
+header nav ul li .dropdown .dropdown2 a:hover:after{
+    background-image: none;
+}
 header nav ul li .dropdown a:hover{
     background-color: #46A358;
     color: #eeeeee;
 }
 header nav ul li.drop:hover .dropdown{
     display: block;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    left: -60px;
 }
+.dropdown2{
+    display: none;
+    background-color: #eeeeee;
+    min-width: 188px;
+    line-height: 30px;
+    transition: 1s;
+    position: absolute;
+    top: -108px;
+    left: 190px;
+    padding-left: 10px;
+}
+header nav ul li.drop li:last-of-type:hover .dropdown2{
+    display: block;
+}
+
 /* banner */
 
 .banner .container{
