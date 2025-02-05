@@ -214,8 +214,9 @@ header nav ul li.drop:hover .dropdown{
     left: 190px;
     padding-left: 10px;
 }
-header nav ul li.drop li:last-of-type:hover .dropdown2{
-    display: inline-block;
+header nav ul li.drop .dropdown li:last-of-type:hover .dropdown2{
+    display: block;
+    background-image: none;
 }
 
 /* banner */
@@ -359,16 +360,17 @@ header nav ul li.drop li:last-of-type:hover .dropdown2{
     background: #46a358;
     border-radius: 6px;
     padding: 10px 20px;
-    font-weight: 600;
+    font-weight: 590;
     font-size: 16px;
     color: #fff;
     text-decoration: none;
 }
 .flex-card-top{
     display: flex;
-    max-width: 580px;
+    max-width: 600px;
     align-items: center;
     text-align: right;
+    flex-wrap: wrap;
 }
 .card-flex-correction{
     max-width: 280px;
