@@ -73,7 +73,7 @@ box-sizing: border-box
     max-width: 354px;
     background: #fff;
     border-radius: 6px;
-    margin: 18px 10px 18px 60px;
+    margin: 18px 25px;
 }
 .input_log_mail_pass{
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
@@ -84,6 +84,12 @@ box-sizing: border-box
 }
 .bottom_button{
     display: flex;
+    margin-bottom: 18px;
+}
+.bottom_button input{
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    padding-left: 10px;
 }
 .bottom_button button{
     border-radius: 0 6px 6px 0;
@@ -107,6 +113,7 @@ box-sizing: border-box
     content: url("../images/marker.png");
     position: absolute;
     left: -25px;
+    bottom: 10px;
 }
 .bottom_marker{
     position: relative;
@@ -129,6 +136,12 @@ box-sizing: border-box
 .bottom_phone{
     position: relative;
     margin-left: 25px;
+}
+.bottom_second p{
+    padding-top: 25px;
+    margin-bottom: 25px;
+    max-width: 200px;
+    min-width: 150px;
 }
 .bottom_second_logo{
     padding: 25px 0;
@@ -156,7 +169,6 @@ box-sizing: border-box
     padding-top: 25px;
     line-height: 230%;
     justify-content: space-between;
-
 }
 .bottom_third_list a{
     color: #3d3d3d;
@@ -262,6 +274,7 @@ header .container{
     font-family: 'cera_proregular', sans-serif;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 10px;
 }
 header nav ul{
     display: flex;
@@ -337,10 +350,10 @@ header nav li .dropdown li:last-of-type a:after{
     position: absolute;
     right: 17px;
     top: 14px;
-    background-image: url("../images/frame 9.svg")
+    background-image: url("../images/frame_9.svg")
 }
 header nav ul li .dropdown a:hover:after{
-    background-image: url("../images/stroke 3-2.svg");
+    background-image: url("../images/stroke_3-2.svg");
     transform: rotate(180deg);
 }
 header nav ul li .dropdown a:hover{
@@ -361,21 +374,26 @@ header nav ul li.drop:hover .dropdown{
     left: 190px;
     padding-left: 10px;
 }
-.dropdown3{
-    background-image: none;
-}
 header nav ul li.drop .dropdown li:last-of-type:hover .dropdown2{
     display: block;
 }
 
 /* banner */
 
+.tittle_box{
+    margin-left: 25px;
+}
 .banner .container{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     font-family: 'cera_proregular', sans-serif;
     color: #3d3d3d;
     margin-bottom: 50px;
+    justify-content: space-between;
+}
+.banner .container p{
+    max-width: 500px;
 }
 .banner span{
     color: #46A358;
@@ -409,6 +427,7 @@ header nav ul li.drop .dropdown li:last-of-type:hover .dropdown2{
 .float .container{
     font-family: 'cera_proregular', sans-serif;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 60px;
     gap: 40px;
@@ -420,6 +439,10 @@ header nav ul li.drop .dropdown li:last-of-type:hover .dropdown2{
 }
 .panel-left{
     background: #fbfbfb;
+}
+.panel-right{
+    max-width: 820px;
+    margin-left: 20px;
 }
 .categories{
     line-height: 260%;
@@ -473,8 +496,8 @@ header nav ul li.drop .dropdown li:last-of-type:hover .dropdown2{
     max-width: 258px;
     max-height: 400px;
     border-top: 3px solid rgba(70, 163, 88, 0);
-    padding-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 .card:hover{
     border-top: 3px solid rgba(70, 163, 88, 1);
@@ -498,12 +521,12 @@ header nav ul li.drop .dropdown li:last-of-type:hover .dropdown2{
 
 .flex{
     font-family: 'cera_proregular', sans-serif;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 .flex-line-top{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 140px;
+    margin-bottom: 40px;
 }
 .flex-line-top a{
     background: #46a358;
@@ -520,6 +543,7 @@ header nav ul li.drop .dropdown li:last-of-type:hover .dropdown2{
     align-items: center;
     text-align: right;
     flex-wrap: wrap;
+    margin-bottom: 25px;
 }
 .card-flex-correction{
     max-width: 280px;
@@ -553,8 +577,8 @@ header nav ul li.drop .dropdown li:last-of-type:hover .dropdown2{
     margin-bottom: 12px;
 }
 .flex-card-bottom{
-    width: 270px;
-    margin: 10px;
+    max-width: 250px;
+    margin: 25px;
 }
 .flex-card-bottom h4{
     color: #46A358;
