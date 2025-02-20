@@ -57,19 +57,19 @@ box-sizing: border-box
     flex-wrap: wrap;
 
 }
-.bottom_plantcard{
+.bottom_card{
     max-width: 202px;
     max-height: 204px;
     margin: 25px;
 }
-.bottom_plantcard h2{
+.bottom_card h2{
     font-size: 20px;
     margin-bottom: 10px;
 }
-.greyline{
+.grey_line{
     margin: 0 5px;
 }
-.bottom_plantcard_mail{
+.bottom_email{
     max-width: 354px;
     background: #fff;
     border-radius: 6px;
@@ -78,14 +78,14 @@ box-sizing: border-box
 .input_log_mail_pass{
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
 }
-.bottom_plantcard_mail h2{
+.bottom_email h2{
     margin-bottom: 25px;
     font-size: 20px;
 }
-.bottom_input_button{
+.bottom_button{
     display: flex;
 }
-.bottom_input_button button{
+.bottom_button button{
     border-radius: 0 6px 6px 0;
     width: 85px;
     height: 40px;
@@ -101,12 +101,39 @@ box-sizing: border-box
     align-items: center;
     padding: 0 20px;
     flex-wrap: wrap;
+    font-size: 14px;
+}
+.bottom_marker::before{
+    content: url("../images/marker.png");
+    position: absolute;
+    left: -25px;
+}
+.bottom_marker{
+    position: relative;
+    margin-left: 25px;
+}
+.bottom_mail::before{
+    content: url("../images/mail.png");
+    position: absolute;
+    left: -25px;
+}
+.bottom_mail{
+    position: relative;
+    margin-left: 25px;
+}
+.bottom_phone::before{
+    content: url("../images/phone.png");
+    position: absolute;
+    left: -25px;
+}
+.bottom_phone{
+    position: relative;
+    margin-left: 25px;
 }
 .bottom_second_logo{
-    padding: 27px 0;
+    padding: 25px 0;
 }
-.bottom_second_adress{
-    max-width: 176px;
+.small_container{
     margin-left: 10px;
     font-size: 14px;
     line-height: 180%;
@@ -115,7 +142,7 @@ box-sizing: border-box
     display: flex;
     align-items: center;
     max-width: 205px;
-    padding: 27px 0;
+    padding: 25px 0;
 }
 .bottom_third{
     display: flex;
@@ -149,7 +176,7 @@ box-sizing: border-box
     font-weight: 900;
 }
 .bottom_third_list_last{
-
+    margin-left: 25px;
 }
 .finish{
     text-align: center;
@@ -159,6 +186,14 @@ box-sizing: border-box
     color: #3d3d3d;
     padding-top: 10px;
     margin-bottom: 30px;
+}
+.medialist ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.medialist{
+    margin-bottom: 20px;
 }
 
 /* new */
