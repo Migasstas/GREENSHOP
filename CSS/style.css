@@ -302,15 +302,14 @@ box-sizing: border-box
 }
 @keyframes loading {
     0%{
-        display: block;
         background-color: white;
+        display: block;
     }
     75%{
         background-color: #46A358;
     }
     99%{
         opacity: 0;
-        display: none;
     }
 }
 
