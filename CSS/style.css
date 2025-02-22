@@ -286,21 +286,20 @@ box-sizing: border-box
 }
 .loading{
     position: absolute;
-    background-color: #ffffff;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     align-content: center;
     text-align: center;
-    animation: loading 5s;
+    animation: loading_animation 5s;
     animation-iteration-count: 1;
     display: none;
-    top: 0;
-    left: 0;
 }
 .image_scale{
     scale: 150%;
 }
-@keyframes loading {
+@keyframes loading_animation {
     0%{
         background-color: white;
         display: block;
