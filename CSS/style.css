@@ -284,6 +284,35 @@ box-sizing: border-box
         border-radius: 10px 10px 10px 10px;
     }
 }
+.loading{
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+    animation: loading 5s;
+    animation-iteration-count: 1;
+    display: none;
+    top: 0;
+    left: 0;
+}
+.image_scale{
+    scale: 150%;
+}
+@keyframes loading {
+    0%{
+        display: block;
+        background-color: white;
+    }
+    75%{
+        background-color: #46A358;
+    }
+    99%{
+        opacity: 0;
+        display: none;
+    }
+}
 
 /* header */
 
@@ -648,6 +677,7 @@ header nav ul li.drop .dropdown li:last-of-type:hover .dropdown2{
     padding-left: 100px;
     padding-right: 100px;
     background: #FFFFFF;
+    position: relative;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3)
 }
 .input_log_mail_pass {
