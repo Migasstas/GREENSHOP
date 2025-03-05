@@ -1,12 +1,26 @@
-@media only screen and (max-width: 600px) {
-
-}
-@media only screen and (max-width: 375px) {
-
-}
-@media only screen and (max-width: 360px) {
-
-}
-@media only screen and (max-width: 320px) {
-
+@media only screen and (max-width: 580px) {
+    header nav ul{
+        display: none;
+    }
+    header .login{
+        margin-right: 20px;
+    }
+    .logo_animation{
+        margin-left: 20px;
+    }
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot{
+        display: none;
+    }
+    .sort-right{
+        margin-right: 10px;
+    }
+    .categories{
+        display: none;
+    }
+    .categories{
+        display: none;
+    }
+    .card-flex-correction{
+        max-width: 260px;
+    }
 }
