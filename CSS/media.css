@@ -24,3 +24,33 @@
         max-width: 260px;
     }
 }
+@media only screen and (max-width: 360px) {
+    header nav ul{
+        display: none;
+    }
+    header .login{
+        margin-right: 20px;
+    }
+    .logo_animation{
+        margin-left: 20px;
+    }
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot{
+        display: none;
+    }
+    .sort-right{
+        margin-right: 10px;
+    }
+    .categories{
+        display: none;
+    }
+    .categories{
+        display: none;
+    }
+    .card-flex-correction{
+        max-width: 260px;
+    }
+    .banner_img{
+        width: 360px;
+        height: 330px;
+    }
+}
